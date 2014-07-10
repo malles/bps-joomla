@@ -86,6 +86,11 @@ $return = JRoute::_('index.php?option=com_bixprintshop&view=user' . $sRegisterIt
 							class="uk-form-controls"><?php echo $this->form->getInput('achternaam', 'profile'); ?></div>
 					</div>
 					<div class="uk-form-row">
+						<?php echo $this->form->getLabel('bedrijfsnaam', 'profile'); ?>
+						<div
+							class="uk-form-controls"><?php echo $this->form->getInput('bedrijfsnaam', 'profile'); ?></div>
+					</div>
+					<div class="uk-form-row">
 						<?php echo $this->form->getLabel('email1'); ?>
 						<div class="uk-form-controls"><?php echo $this->form->getInput('email1'); ?></div>
 					</div>
