@@ -10,4 +10,6 @@
 defined('_JEXEC') or die;
 ?>
 <div class="footer1<?php echo $moduleclass_sfx ?>"><?php echo $lineone; ?></div>
-<div class="footer2<?php echo $moduleclass_sfx ?>">Website door <a href="http://www.bixie.nl" target="_blank" title="Bixie Printshop"><i class="uk-icon-bixie uk-margin-small-right"></i>Bixie</a></div>
+<div class="footer2<?php echo $moduleclass_sfx ?>">Website door <a href="http://www.bixie.nl" target="_blank"
+																   title="Bixie Printshop"><i
+			class="uk-icon-bixie uk-margin-small-right"></i>Bixie</a></div>
